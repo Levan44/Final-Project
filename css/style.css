@@ -1,0 +1,361 @@
+* {
+  position: relative;
+  width: 1080px;
+  height: 5451px;
+  background: #fff4df;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Addington CF";
+}
+
+.navbox {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 90px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbox ul {
+  text-transform: uppercase;
+  display: flex;
+  gap: 57px;
+  cursor: pointer;
+}
+
+.navbox u l,
+li,
+a {
+  cursor: pointer;
+  position: relative;
+  color: #3f3f3f;
+  text-decoration: none;
+  list-style: none;
+  font-size: 17.5px;
+  justify-content: space-around;
+  width: 87.61px;
+  height: 44.44px;
+  left: 750.02px;
+  top: 13.97px;
+}
+
+.home {
+  color: #c56f54;
+}
+
+.logo-shadow {
+  position: relative;
+  width: 347.91px;
+  height: 347.91px;
+  left: -101.58px;
+  top: -179.03px;
+  background: rgba(255, 167, 147, 0.68);
+  filter: blur(65.3917px);
+}
+
+.logo {
+  position: absolute;
+  width: 130.78px;
+  height: 58.41px;
+  left: 152.37px;
+  top: 7.62px;
+  font-family: "Addington CF";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 41.6317px;
+  line-height: 59px;
+  color: #000000;
+}
+
+.luxury {
+  position: absolute;
+  width: 800.56px;
+  height: 352.99px;
+  left: 780px;
+  top: 213px;
+  font-family: "Addington CF";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 80.895px;
+  line-height: 176px;
+  text-align: center;
+  color: #3f3f3f;
+}
+
+.woman1 {
+  position: absolute;
+  width: 832.95px;
+  height: 1207.52px;
+  margin-left: 650px;
+  left: calc(50% - 832.95px / 2 - 0px);
+  top: calc(50% - 1207.52px / 2 - 1733.2px);
+}
+
+.woman2 {
+  position: absolute;
+  width: 705.98px;
+  height: 1246.89px;
+  left: 0px;
+  top: 2069.68px;
+}
+
+.woman2-text {
+  position: absolute;
+  width: 650.9px;
+  height: 300.99px;
+  left: 848.19px;
+  top: 2323.63px;
+  font-family: "Addington CF";
+  font-style: italic;
+  font-weight: 100;
+  font-size: 78.895px;
+  line-height: 100px;
+  color: #c56f54;
+}
+
+.gray1 {
+  color: #3f3f3f;
+}
+
+.woman3 {
+  position: absolute;
+  width: 499.73px;
+  height: 921.83px;
+  left: 2036.33px;
+  top: 3048.65px;
+  background: url(/assets/media/sunny-ng-B5Uo7GcVE1I-unsplash\ 1.png);
+  background-repeat: no-repeat;
+}
+
+.woman4 {
+  position: absolute;
+  width: 735.18px;
+  height: 1102.14px;
+  left: 152.37px;
+  top: 4347.59px;
+
+  background: url(/assets/media/Exc9JhlR\ 1.png);
+}
+
+.woman4-text {
+  position: absolute;
+  width: 600.69px;
+  height: 73.64px;
+  left: 1039.92px;
+  top: 4347.59px;
+  font-family: "Addington CF";
+  font-style: italic;
+  font-weight: 100;
+  font-size: 50.7896px;
+  line-height: 73px;
+  color: #c56f54;
+}
+
+.search {
+  width: 50px;
+}
+
+.category {
+  position: absolute;
+  width: 212.05px;
+  height: 313.63px;
+  left: 1039.92px;
+  top: 4461.87px;
+  gap: 60;
+}
+
+.shadow {
+  position: absolute;
+  width: 347.91px;
+  height: 347.91px;
+  left: -101.58px;
+  top: 1903.34px;
+  background: rgba(255, 167, 147, 0.68);
+  filter: blur(65.3917px);
+}
+
+.shadow2 {
+  position: absolute;
+  width: 347.91px;
+  height: 347.91px;
+  left: 641.22px;
+  top: 4286.65px;
+  background: rgba(255, 167, 147, 0.68);
+  filter: blur(65.3917px);
+}
+
+.co1 {
+  position: absolute;
+  width: 212.05px;
+  height: 313.63px;
+  left: 1039.92px;
+  top: 4461.87px;
+}
+
+.co2 {
+  position: absolute;
+  width: 212.05px;
+  height: 313.63px;
+  left: 1282.44px;
+  top: 4461.87px;
+}
+
+.co3 {
+  position: absolute;
+  width: 212.05px;
+  height: 313.63px;
+  left: 1524.96px;
+  top: 4461.87px;
+}
+
+.co1-text {
+  position: absolute;
+  width: 300.91px;
+  height: 73.64px;
+  left: 1039.92px;
+  top: 4785.66px;
+  font-family: "Addington CF";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 25.3948px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.co2-text {
+  position: absolute;
+  width: 300.63px;
+  height: 73.64px;
+  left: 1282.44px;
+  top: 4785.66px;
+  font-family: "Addington CF";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 25.3948px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.co3-text {
+  position: absolute;
+  width: 300.72px;
+  height: 73.64px;
+  left: 1524.96px;
+  top: 4785.66px;
+  font-family: "Addington CF";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 25.3948px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.link {
+  position: absolute;
+  width: 650.9px;
+  height: 300.99px;
+  left: 1200.19px;
+  top: 2550.63px;
+  font-family: "Addington CF";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 46px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.blur-woman1 {
+  position: relative;
+  width: 364px;
+  height: 364px;
+  left: 1200px;
+  top: -800px;
+  background: rgba(255, 167, 147, 0.68);
+  filter: blur(51.5px);
+}
+
+.line1 {
+  position: absolute;
+  width: 2536px;
+  height: 0px;
+  left: 0px;
+  top: 90px;
+  border: 1px solid #000000;
+}
+
+.line2 {
+  position: absolute;
+  width: 100px;
+  height: 0px;
+  left: 333px;
+  top: 39px;
+  border: 1px solid #000000;
+  transform: rotate(90deg);
+}
+
+.blur-woman2 {
+  position: absolute;
+  width: 364px;
+  height: 364px;
+  left: 450px;
+  top: 3050px;
+  background: rgba(255, 167, 147, 0.68);
+  filter: blur(51.5px);
+}
+
+.woman2-2 {
+  position: absolute;
+  width: 282px;
+  height: 386px;
+  left: 550px;
+  top: 2850px;
+  background: url(/assets/media/sunny-ng-PQy_idCfkcg-unsplash\ 2.png);
+  filter: drop-shadow(1px 4px 50px rgba(0, 0, 0, 0.25));
+}
+
+.search {
+  cursor: pointer;
+  position: absolute;
+  left: 2400.61px;
+  right: 15.87%;
+  top: 0.6%;
+  bottom: 99.06%;
+}
+
+.basket {
+  cursor: pointer;
+  position: absolute;
+  left: 2445.61px;
+  right: 15.87%;
+  top: 0.6%;
+  bottom: 99.06%;
+}
+
+.user {
+  cursor: pointer;
+  position: absolute;
+  left: 2490.61px;
+  right: 15.87%;
+  top: 0.6%;
+  bottom: 99.06%;
+}
+
+.stars1 {
+  position: absolute;
+  width: 66px;
+  height: 99px;
+  left: 87px;
+  top: 280px;
+  background: rgba(255, 204, 192, 0.88);
+}
+
+.next-arrow {
+  position: absolute;
+  left: 163%;
+  right: 4.96%;
+  top: 84.91%;
+  bottom: 14.02%;
+}
